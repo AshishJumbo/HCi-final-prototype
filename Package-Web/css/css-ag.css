@@ -1,0 +1,206 @@
+/*
+<link href="./css/css-ag.css" rel="stylesheet" type="text/css"/>
+<link href="./css/animate.css" rel="stylesheet" type="text/css"/>
+
+onClick="noImplementedAlert()"
+
+function noImplementedAlert() {
+  alert("This feature has not been implemented for this iteration");
+}
+
+ */
+.opacity-ag{
+  opacity: 1;
+}
+
+.scale-on-hover:hover{
+  transform: scale(1.15)!important;
+  filter: drop-shadow(0 4px 2px #000);
+  transition-duration: 0.5s;
+}
+
+.button-ag, .button-ag-dark{
+  z-index: 10;
+  border-radius: 50%;
+}
+.button-ag:hover, .button-ag:active {
+  filter: drop-shadow(0 3px 3px #fff);
+}
+.button-ag:active {
+  margin-top: 4px!important;
+  filter: drop-shadow(0 1 3px #fff)!important;
+}
+
+.button-ag-dark:hover, .button-ag-dark:active {
+  filter: drop-shadow(0 3px 3px #333);
+}
+.button-ag-dark:active {
+  margin-top: 4px!important;
+  filter: drop-shadow(0 1 3px #333)!important;
+}
+
+.input-btn-ag:hover, .input-btn-ag:active {
+  background-color: rgba(254, 190, 0, 1.0)!important;
+  filter: drop-shadow(0 3px 3px #fff);
+}
+
+.input-btn-ag:active {
+  margin-top: 2px!important;
+  filter: drop-shadow(0 1 3px #fff);
+}
+
+
+.container-3d-ag{
+  perspective: 1000px;
+}
+
+.effect-3d-ag {
+  transform-style: preserve-3d;
+  height: 100%;
+  width: 100%;
+  transform-origin: 50% 50%;
+  transition: -webkit-transform 1.5s linear 0s;
+  /* transform: translate(-50%, -50%) rotateX(90deg) translate3d(0,0,4vmin); */
+}ag
+
+.bottomface-ag{
+  height: 100%;
+  width: 100%;
+  transform: rotateX(-90deg) translate3d(0,0,15vmin);
+}
+
+.bottomface-ag:hover {
+  background-color: rgba(255, 188, 52, 0.45);
+}
+
+.scaleeffecta {
+  height:200px;
+  -webkit-animation: scaleeffect 0.8s linear infinite alternate;
+  animation: scaleeffect 0.8s linear infinite alternate;
+}
+
+@keyframes scaleeffect {
+  0%{
+    transform: translateY(-5%);
+  }
+  100%{
+    transform: translateY(5%);
+  }
+}
+
+@-webkit-keyframes scaleeffect{
+  0%{
+    transform: translateY(-5%);
+  }
+  100%{
+    transform: translateY(5%);
+  }
+}
+
+[class*="slideInUp-ag"]:hover{
+  transform: scale(1.05)!important;
+}
+
+.slideInUp-ag1{
+  transform: translateY(150%)!important;
+  -webkit-animation : slideInUp-ag-kf 1s ease-in 1 forwards;
+  animation : slideInUp-ag-kf 1s ease-in 1 forwards;
+}
+
+.slideInUp-ag2{
+  transform: translateY(150%)!important;
+  -webkit-animation : slideInUp-ag-kf 1s ease-in 0.5s 1 forwards;
+  animation : slideInUp-ag-kf 1s ease-in 0.5s 1 forwards;
+}
+
+.slideInUp-ag3{
+  transform: translateY(150%)!important;
+  -webkit-animation : slideInUp-ag-kf 1s ease-in 1s 1 forwards;
+  animation : slideInUp-ag-kf 1s ease-in 1s 1 forwards;
+}
+
+.slideInUp-ag4{
+  transform: translateY(150%)!important;
+  -webkit-animation : slideInUp-ag-kf 1s ease-in 1.5s 1 forwards;
+  animation : slideInUp-ag-kf 1s ease-in 1.5s 1 forwards;
+}
+
+@keyframes slideInUp-ag-kf {
+    0%{
+      transform: translateY(150%);
+    }
+    93%{
+      transform: translateY(-10%);
+    }
+    95%{
+      transform: translateY(-10%);
+    }
+    100%{
+      transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideInUp-ag-kf {
+    0%{
+      transform: translateY(150%);
+    }
+    93%{
+      transform: translateY(-10%);
+    }
+    95%{
+      transform: translateY(-10%);
+    }
+    100%{
+      transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn1 {
+  opacity: 0;
+  -webkit-animation: fadeIn 1.5s linear forwards;
+  animation: fadeIn 1.5s linear forwards;
+}
+
+.fadeIn2 {
+  opacity: 0;
+  -webkit-animation: fadeIn 1.5s linear 1s forwards;
+  animation: fadeIn 1.5s linear 1s forwards;
+}
+
+.fadeIn3 {
+  opacity: 0;
+  -webkit-animation: fadeIn 1.5s linear 2s forwards;
+  animation: fadeIn 1.5s linear 2s forwards;
+}
+
+.fadeIn4 {
+  opacity: 0;
+  -webkit-animation: fadeIn 1.5s linear 3s forwards;
+  animation: fadeIn 1.5s linear 3s forwards;
+}
+
+.fadeIn5 {
+  opacity: 0;
+  -webkit-animation: fadeIn 1.5s linear 4s forwards;
+  animation: fadeIn 1.5s linear 4s forwards;
+}

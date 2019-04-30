@@ -1,0 +1,738 @@
+
+@font-face {
+                          font-family: "ComicSansMS-Bold";
+                          src: url('../fonts/Comic Sans MS Bold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ComicSansMS";
+                          src: url('../fonts/Comic Sans MS.ttf') format("truetype");
+                        }
+
+.landing {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 768px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(124, 124, 124, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.landing .rectangle {
+  background-color    : rgba(29, 96, 172, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .rectangle1 {
+  background-color    : rgba(29, 96, 172, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.rectangle1 {
+  overflow: hidden;
+}
+.landing .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 218px;
+  height              : 901px;
+  width               : 598px;
+  position            : absolute;
+  margin              : 0;
+  left                : 559px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .group2 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 413px;
+  height              : 324px;
+  width               : 378px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(-28deg); /* IE 9 */
+  -webkit-transform   : rotate(-28deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-28deg);
+}
+
+.landing .group2 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 507px;
+  height              : 324px;
+  width               : 378px;
+  position            : absolute;
+  margin              : 0;
+  left                : 166px;
+  -ms-transform       : rotate(-28deg); /* IE 9 */
+  -webkit-transform   : rotate(-28deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-28deg);
+}
+.landing .group2 .rectangle2 {
+  background-color    : rgba(211, 140, 101, 1.0);
+  top                 : 397px;
+  height              : 91px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 236px;
+  border-radius       : 39px;
+  -ms-transform       : rotate(-20deg); /* IE 9 */
+  -webkit-transform   : rotate(-20deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-20deg);
+}
+.landing .group2 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 483px;
+  width               : 411px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .group2 .group .path5copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 153px;
+  height              : 323px;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 344px;
+  height              : 62px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 277px;
+  height              : 69px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 320px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 332px;
+  height              : 62px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 265px;
+  height              : 69px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 316px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 199px;
+  height              : 263px;
+  width               : 241px;
+  position            : absolute;
+  margin              : 0;
+  left                : 108px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 196px;
+  height              : 263px;
+  width               : 241px;
+  position            : absolute;
+  margin              : 0;
+  left                : 107px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 362px;
+  height              : 47px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 134px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+  opacity             : 0.6;
+}
+.landing .group2 .group .ovalcopy15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 317px;
+  height              : 53px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 290px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+  opacity             : 0.6;
+}
+.landing .group2 .group .oval2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 368px;
+  height              : 67px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 373px;
+  height              : 60px;
+  width               : 77px;
+  position            : absolute;
+  margin              : 0;
+  left                : 210px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 404px;
+  height              : 32px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 224px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 351px;
+  height              : 19px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 228px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .path2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 297px;
+  height              : 28px;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 118px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .path2copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 257px;
+  height              : 48px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 233px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .path3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 196px;
+  height              : 99px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 153px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .path3copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 176px;
+  height              : 113px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 151px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .path4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 195px;
+  height              : 195px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .path4copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 194px;
+  height              : 195px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 236px;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : 229px;
+  width               : 264px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 193px;
+  width               : 319px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 193px;
+  width               : 319px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .ovalcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 72px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 322px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 157px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .oval11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 287px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 272px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 334px;
+  height              : 7px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 157px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .group2 .group .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 299px;
+  height              : 7px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(2deg); /* IE 9 */
+  -webkit-transform   : rotate(2deg); /* Chrome, Safari, Opera */
+  transform           : rotate(2deg);
+}
+.landing .arkitchen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 104px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 295px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 80.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.0px;
+  line-height         : 111.0px;
+}
+.landing .forkids {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 411px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 50.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.63px;
+  line-height         : 70.0px;
+}
+.landing .landingplay {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 476px;
+  height              : 166px;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 429px;
+  /* overflow            : hidden; */
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .landingplay .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 166px;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .landingplay .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 166px;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .landingplay .oval .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 166px;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .landingplay .oval .triangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : 65px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.landing .hotspot {
+  background-color    : rgba(255,255,255,0.0);
+  /* top                 : 476px; */
+  height              : 166px;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  /* left                : 429px; */
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .systemprimesettings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 65px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 925px;
+  /* overflow            : hidden; */
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .systemprimesettings .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 65px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .systemprimesettings .ovalcopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 65px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  /* overflow            : hidden; */
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .systemprimesettings .ovalcopy6 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 65px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .systemprimesettings .ovalcopy6 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .systemprimesettings .ovalcopy6 .ovalcopy61 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 43px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .hotspot1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 65px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 925px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,1244 @@
+
+@font-face {
+                          font-family: "ComicSansMS-Bold";
+                          src: url('../fonts/Comic Sans MS Bold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ComicSansMS";
+                          src: url('../fonts/Comic Sans MS.ttf') format("truetype");
+                        }
+                        
+.numbermenu {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 768px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.numbermenu .group {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  width               : 1024px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  box-sizing          : border-box;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 937px;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : -68px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 869px;
+  width               : 580px;
+  position            : absolute;
+  margin              : 0;
+  left                : -68px;
+  -ms-transform       : rotate(7deg); /* IE 9 */
+  -webkit-transform   : rotate(7deg); /* Chrome, Safari, Opera */
+  transform           : rotate(7deg);
+}
+.numbermenu .group .group9 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 229px;
+  height              : 614px;
+  width               : 579px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 514px;
+  height              : 100px;
+  width               : 419px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.numbermenu .group .group9 .group7 .hand {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 343px;
+  height              : 90px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(-165deg); /* IE 9 */
+  -webkit-transform   : rotate(-165deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-165deg);
+}
+.numbermenu .group .group9 .group7 .hand .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 47px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .hand .oval11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 47px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .hand .ovalcopy43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 44px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(-11deg); /* IE 9 */
+  -webkit-transform   : rotate(-11deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-11deg);
+}
+.numbermenu .group .group9 .group7 .hand .ovalcopy47 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 28px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.numbermenu .group .group9 .group7 .hand .ovalcopy44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 47px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(8deg); /* IE 9 */
+  -webkit-transform   : rotate(8deg); /* Chrome, Safari, Opera */
+  transform           : rotate(8deg);
+}
+.numbermenu .group .group9 .group7 .hand .ovalcopy45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 44px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(18deg); /* IE 9 */
+  -webkit-transform   : rotate(18deg); /* Chrome, Safari, Opera */
+  transform           : rotate(18deg);
+}
+.numbermenu .group .group9 .group7 .hand .ovalcopy46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 36px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  -ms-transform       : rotate(35deg); /* IE 9 */
+  -webkit-transform   : rotate(35deg); /* Chrome, Safari, Opera */
+  transform           : rotate(35deg);
+}
+.numbermenu .group .group9 .group7 .armr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 171px;
+  height              : 203px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  -ms-transform       : rotate(29deg); /* IE 9 */
+  -webkit-transform   : rotate(29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(29deg);
+}
+.numbermenu .group .group9 .group7 .group12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 276px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 329px;
+  -ms-transform       : rotate(-145deg); /* IE 9 */
+  -webkit-transform   : rotate(-145deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-145deg);
+}
+.numbermenu .group .group9 .group7 .group12 .handcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 175px;
+  height              : 90px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(-165deg); /* IE 9 */
+  -webkit-transform   : rotate(-165deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-165deg);
+}
+.numbermenu .group .group9 .group7 .group12 .handcopy .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 47px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .group12 .handcopy .oval11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 47px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .group12 .handcopy .ovalcopy43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 44px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(-11deg); /* IE 9 */
+  -webkit-transform   : rotate(-11deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-11deg);
+}
+.numbermenu .group .group9 .group7 .group12 .handcopy .ovalcopy47 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 28px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.numbermenu .group .group9 .group7 .group12 .handcopy .ovalcopy44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 47px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(8deg); /* IE 9 */
+  -webkit-transform   : rotate(8deg); /* Chrome, Safari, Opera */
+  transform           : rotate(8deg);
+}
+.numbermenu .group .group9 .group7 .group12 .handcopy .ovalcopy45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 44px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(18deg); /* IE 9 */
+  -webkit-transform   : rotate(18deg); /* Chrome, Safari, Opera */
+  transform           : rotate(18deg);
+}
+.numbermenu .group .group9 .group7 .group12 .handcopy .ovalcopy46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 36px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  -ms-transform       : rotate(35deg); /* IE 9 */
+  -webkit-transform   : rotate(35deg); /* Chrome, Safari, Opera */
+  transform           : rotate(35deg);
+}
+.numbermenu .group .group9 .group7 .group12 .armrcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 203px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  -ms-transform       : rotate(29deg); /* IE 9 */
+  -webkit-transform   : rotate(29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(29deg);
+}
+.numbermenu .group .group9 .group7 .body {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 127px;
+  height              : 474px;
+  width               : 243px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 354px;
+  height              : 119px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .oval11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 349px;
+  height              : 119px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .ovalcopy40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 354px;
+  height              : 119px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .ovalcopy401 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 349px;
+  height              : 119px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : 150px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : 152px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .rectangle11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 296px;
+  width               : 242px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 269px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  border-radius       : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .oval21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 124px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .ovalcopy41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 163px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .group7 .body .ovalcopy42 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 202px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 411px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .path5copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 145px;
+  height              : 241px;
+  width               : 239px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 274px;
+  height              : 61px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 280px;
+  height              : 61px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 225px;
+  -ms-transform       : rotate(26deg); /* IE 9 */
+  -webkit-transform   : rotate(26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(26deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 263px;
+  height              : 61px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 268px;
+  height              : 61px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 225px;
+  -ms-transform       : rotate(26deg); /* IE 9 */
+  -webkit-transform   : rotate(26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(26deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 178px;
+  height              : 233px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 175px;
+  height              : 233px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 303px;
+  height              : 42px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(22deg); /* IE 9 */
+  -webkit-transform   : rotate(22deg); /* Chrome, Safari, Opera */
+  transform           : rotate(22deg);
+  opacity             : 0.6;
+}
+.numbermenu .group .group9 .headb .ovalcopy15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 306px;
+  height              : 42px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 189px;
+  -ms-transform       : rotate(-22deg); /* IE 9 */
+  -webkit-transform   : rotate(-22deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-22deg);
+  opacity             : 0.6;
+}
+.numbermenu .group .group9 .headb .oval2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 335px;
+  height              : 52px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 107px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 344px;
+  height              : 44px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 108px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 364px;
+  height              : 25px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 311px;
+  height              : 17px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 133px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .path2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 243px;
+  height              : 27px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .path2copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 247px;
+  height              : 25px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 153px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .path3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 167px;
+  height              : 122px;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .path3copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 159px;
+  height              : 127px;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .path4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 159px;
+  height              : 158px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .path4copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 156px;
+  height              : 158px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : 144px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 67px;
+  height              : 144px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 150px;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 150px;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .ovalcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 270px;
+  height              : 33px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .oval11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 270px;
+  height              : 33px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 186px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .oval21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 278px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group9 .headb .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 278px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 186px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 603px;
+  width               : 603px;
+  position            : absolute;
+  margin              : 0;
+  left                : 502px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .oval .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 603px;
+  width               : 603px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .oval1 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .oval1 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 54px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.numbermenu .group .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 399px;
+  width               : 472px;
+  position            : absolute;
+  margin              : 0;
+  left                : 145px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .todayu2019slunchrecome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : auto;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 201px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.38px;
+  line-height         : 42.0px;
+}
+.numbermenu .group .todayu2019slunchrecome .span1 {
+  
+}
+.numbermenu .group .todayu2019slunchrecome .span2 {
+  color               : rgba(246, 231, 0, 1.0);
+}
+.numbermenu .group .todayu2019slunchrecome .span3 {
+  
+}
+.numbermenu .group .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 529px;
+  height              : 239px;
+  width               : 425px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group2 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group2 .rectangle2 .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group2 .rectangle2 .numbers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.numbermenu .group .group2 .rectangle2 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group2 .rectangle2 .oval3 .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group2 .hotspot2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group2 .rectangle11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group2 .rectangle11 .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group2 .rectangle11 .numbers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.numbermenu .group .group2 .rectangle11 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group2 .rectangle11 .oval3 .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .group2 .hotspot1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 902px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .oval2 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .oval2 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 52px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbermenu .group .hotspot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 902px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

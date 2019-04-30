@@ -1,0 +1,730 @@
+
+@font-face {
+                          font-family: "ComicSansMS-Bold";
+                          src: url('../fonts/Comic Sans MS Bold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ComicSansMS";
+                          src: url('../fonts/Comic Sans MS.ttf') format("truetype");
+                        }
+                        
+.login {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 768px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(124, 124, 124, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.login .rectangle {
+  background-color    : rgba(29, 96, 172, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .rectangle1 {
+  background-color    : rgba(29, 96, 172, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 245px;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 403px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 28px;
+  height              : 217px;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 25px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group6 .rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 217px;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group6 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 164px;
+  height              : 94px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(-17deg); /* IE 9 */
+  -webkit-transform   : rotate(-17deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-17deg);
+}
+.login .group .group6 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 197px;
+  height              : 62px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  -ms-transform       : rotate(-17deg); /* IE 9 */
+  -webkit-transform   : rotate(-17deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-17deg);
+}
+.login .group .group6 .rectangle11 {
+  background-color    : rgba(212, 141, 104, 1.0);
+  top                 : 154px;
+  height              : 37px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  border-radius       : 13px;
+  -ms-transform       : rotate(-19deg); /* IE 9 */
+  -webkit-transform   : rotate(-19deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-19deg);
+}
+.login .group .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 192px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(-15deg); /* IE 9 */
+  -webkit-transform   : rotate(-15deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-15deg);
+}
+.login .group .group5 .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 130px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 122px;
+  height              : 30px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.login .group .group5 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 127px;
+  height              : 30px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(26deg); /* IE 9 */
+  -webkit-transform   : rotate(26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(26deg);
+}
+.login .group .group5 .ovalcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 117px;
+  height              : 30px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.login .group .group5 .ovalcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 120px;
+  height              : 30px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(26deg); /* IE 9 */
+  -webkit-transform   : rotate(26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(26deg);
+}
+.login .group .group5 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : 117px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : 117px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : 22px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.login .group .group5 .oval5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : 22px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  -ms-transform       : rotate(-22deg); /* IE 9 */
+  -webkit-transform   : rotate(-22deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-22deg);
+  opacity             : 0.6;
+}
+.login .group .group5 .oval21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : 28px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .oval6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 159px;
+  height              : 22px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .oval7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 169px;
+  height              : 12px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .oval8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 142px;
+  height              : 8px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : 62px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .path31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 77px;
+  height              : 63px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : 78px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .path41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : 78px;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 72px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .rectangle11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 72px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .ovalcopy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 75px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .ovalcopy71 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 75px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .group5 .oval9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .arkitchen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 314px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 376px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 50.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.63px;
+  line-height         : 70.0px;
+}
+.login .forkids {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 384px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 451px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.38px;
+  line-height         : 42.0px;
+}
+.login .rectangle2 {
+  background-color    : rgba(4, 77, 163, 1.0);
+  top                 : 459px;
+  height              : 68px;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 355px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .hotspot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 459px;
+  height              : 68px;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 355px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .rectanglecopy {
+  background-color    : rgba(4, 77, 163, 1.0);
+  top                 : 542px;
+  height              : 68px;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 355px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .rectanglecopy2 {
+  background-color    : rgba(254, 190, 0, 1.0);
+  top                 : 629px;
+  height              : 68px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 523px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .login1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 650px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 556px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.login .signup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 629px;
+  height              : 68px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 355px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .signup .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .signup .signup2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.login .signup .rectanglecopy22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  box-sizing          : border-box;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 34px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .signup .signup1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.login .signup .rectanglecopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  box-sizing          : border-box;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 34px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .emailorusername {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 476px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 377px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(43, 116, 199, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.login .password {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 560px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 376px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(43, 116, 199, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

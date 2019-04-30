@@ -1,0 +1,1115 @@
+
+@font-face {
+                          font-family: "ComicSansMS-Bold";
+                          src: url('../fonts/Comic Sans MS Bold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ComicSansMS";
+                          src: url('../fonts/Comic Sans MS.ttf') format("truetype");
+                        }
+                        
+.foodpreference {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 768px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.foodpreference .group {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  width               : 1024px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  box-sizing          : border-box;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -182px;
+  height              : 1524px;
+  width               : 2032px;
+  position            : absolute;
+  margin              : 0;
+  left                : -446px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 915px;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 265px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 915px;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 787px;
+  height              : 103px;
+  width               : 352px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.foodpreference .group .group2 .group9 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 367px;
+  height              : 489px;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .hand {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 225px;
+  height              : 92px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(-165deg); /* IE 9 */
+  -webkit-transform   : rotate(-165deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-165deg);
+}
+.foodpreference .group .group2 .group9 .group7 .hand .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 49px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .hand .oval11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : 49px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .hand .ovalcopy43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 46px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(-11deg); /* IE 9 */
+  -webkit-transform   : rotate(-11deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-11deg);
+}
+.foodpreference .group .group2 .group9 .group7 .hand .ovalcopy47 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 29px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.foodpreference .group .group2 .group9 .group7 .hand .ovalcopy44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(8deg); /* IE 9 */
+  -webkit-transform   : rotate(8deg); /* Chrome, Safari, Opera */
+  transform           : rotate(8deg);
+}
+.foodpreference .group .group2 .group9 .group7 .hand .ovalcopy45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 46px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(18deg); /* IE 9 */
+  -webkit-transform   : rotate(18deg); /* Chrome, Safari, Opera */
+  transform           : rotate(18deg);
+}
+.foodpreference .group .group2 .group9 .group7 .hand .ovalcopy46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 37px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(35deg); /* IE 9 */
+  -webkit-transform   : rotate(35deg); /* Chrome, Safari, Opera */
+  transform           : rotate(35deg);
+}
+.foodpreference .group .group2 .group9 .group7 .hand1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 225px;
+  height              : 92px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 358px;
+  -ms-transform       : rotate(165deg); /* IE 9 */
+  -webkit-transform   : rotate(165deg); /* Chrome, Safari, Opera */
+  transform           : rotate(165deg);
+}
+.foodpreference .group .group2 .group9 .group7 .armr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 209px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 313px;
+  -ms-transform       : rotate(-29deg); /* IE 9 */
+  -webkit-transform   : rotate(-29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-29deg);
+}
+.foodpreference .group .group2 .group9 .group7 .armr .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 189px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .armr .rectangle12 {
+  background-color    : rgba(207, 207, 207, 1.0);
+  top                 : 171px;
+  height              : 37px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .armr .rectanglecopy6 {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 163px;
+  height              : 37px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .armr1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 209px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(29deg); /* IE 9 */
+  -webkit-transform   : rotate(29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(29deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 489px;
+  width               : 251px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 366px;
+  height              : 123px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .oval11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 360px;
+  height              : 123px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .ovalcopy40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 366px;
+  height              : 123px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .ovalcopy401 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 360px;
+  height              : 123px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 260px;
+  height              : 155px;
+  width               : 63px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 260px;
+  height              : 157px;
+  width               : 63px;
+  position            : absolute;
+  margin              : 0;
+  left                : 146px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .rectangle12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 306px;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .rectangle21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 278px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 83px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  border-radius       : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 129px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .ovalcopy41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 169px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .group7 .body .ovalcopy42 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 209px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 423px;
+  width               : 307px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .path5copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 149px;
+  height              : 249px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 282px;
+  height              : 63px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 288px;
+  height              : 63px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  -ms-transform       : rotate(26deg); /* IE 9 */
+  -webkit-transform   : rotate(26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(26deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 270px;
+  height              : 63px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 276px;
+  height              : 63px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  -ms-transform       : rotate(26deg); /* IE 9 */
+  -webkit-transform   : rotate(26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(26deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 183px;
+  height              : 240px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 180px;
+  height              : 240px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 312px;
+  height              : 43px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  -ms-transform       : rotate(22deg); /* IE 9 */
+  -webkit-transform   : rotate(22deg); /* Chrome, Safari, Opera */
+  transform           : rotate(22deg);
+  opacity             : 0.6;
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 314px;
+  height              : 43px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 195px;
+  -ms-transform       : rotate(-22deg); /* IE 9 */
+  -webkit-transform   : rotate(-22deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-22deg);
+  opacity             : 0.6;
+}
+.foodpreference .group .group2 .group9 .headb .oval2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 344px;
+  height              : 55px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 354px;
+  height              : 46px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 374px;
+  height              : 26px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 118px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 320px;
+  height              : 17px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .path2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 250px;
+  height              : 27px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .path2copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 254px;
+  height              : 26px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .path3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 171px;
+  height              : 126px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .path3copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 163px;
+  height              : 131px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .path4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 163px;
+  height              : 163px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .path4copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 160px;
+  height              : 163px;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 74px;
+  height              : 149px;
+  width               : 241px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 149px;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 154px;
+  width               : 307px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 154px;
+  width               : 307px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .ovalcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 230px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 277px;
+  height              : 34px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .oval11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 277px;
+  height              : 34px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 286px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .group9 .headb .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 286px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 494px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .rectangle2 .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .rectangle2 .numbers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.foodpreference .group .group2 .rectangle2 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .rectangle2 .oval1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .hotspot2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 494px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .rectangle11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 494px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 254px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .rectangle11 .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .rectangle11 .numbers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.foodpreference .group .group2 .rectangle11 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .rectangle11 .oval1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .group2 .hotspot1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 494px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 254px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .oval .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .oval .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 54px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.foodpreference .group .hotspot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 310px;
+  width               : 472px;
+  position            : absolute;
+  margin              : 0;
+  left                : 276px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.foodpreference .group .arethereanydietar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : auto;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.38px;
+  line-height         : 42.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

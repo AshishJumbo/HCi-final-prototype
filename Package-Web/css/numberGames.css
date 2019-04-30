@@ -1,0 +1,1392 @@
+
+@font-face {
+                          font-family: "ComicSansMS-Bold";
+                          src: url('../fonts/Comic Sans MS Bold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ComicSansMS";
+                          src: url('../fonts/Comic Sans MS.ttf') format("truetype");
+                        }
+
+.numbergames {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 768px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.numbergames .group {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  box-sizing          : border-box;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 937px;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : -68px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 529px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle1 .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle1 .numbers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.numbergames .group .rectangle1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle1 .oval2 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .hotspot2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 529px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 529px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 308px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle2 .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle2 .numbers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.numbergames .group .rectangle2 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle2 .oval2 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 529px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 527px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle3 .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle3 .numbers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.numbergames .group .rectangle3 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle3 .oval2 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 529px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 746px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle4 .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle4 .numbers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.25px;
+  line-height         : 28.0px;
+}
+.numbergames .group .rectangle4 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle4 .oval2 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 155px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .oval .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .oval .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 54px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.numbergames .group .hotspot1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 262px;
+  width               : 472px;
+  position            : absolute;
+  margin              : 0;
+  left                : 276px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .okwhichgamedoyo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : auto;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.38px;
+  line-height         : 42.0px;
+}
+.numbergames .group .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 902px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .oval1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .oval1 .starcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 87px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .oval1 .starcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .oval1 .ovalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 69px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .oval1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 59px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .oval1 .star {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 69px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group .oval1 .star1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .hotspot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 902px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 146px;
+  height              : 396px;
+  width               : 255px;
+  position            : absolute;
+  margin              : 0;
+  left                : 407px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : 271px;
+  width               : 255px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 227px;
+  height              : 44px;
+  width               : 184px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.numbergames .group9 .group7 .hand {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 151px;
+  height              : 40px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-165deg); /* IE 9 */
+  -webkit-transform   : rotate(-165deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-165deg);
+}
+.numbergames .group9 .group7 .hand .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .hand .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .hand .ovalcopy43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 20px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(-11deg); /* IE 9 */
+  -webkit-transform   : rotate(-11deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-11deg);
+}
+.numbergames .group9 .group7 .hand .ovalcopy47 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.numbergames .group9 .group7 .hand .ovalcopy44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 21px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(8deg); /* IE 9 */
+  -webkit-transform   : rotate(8deg); /* Chrome, Safari, Opera */
+  transform           : rotate(8deg);
+}
+.numbergames .group9 .group7 .hand .ovalcopy45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 20px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(18deg); /* IE 9 */
+  -webkit-transform   : rotate(18deg); /* Chrome, Safari, Opera */
+  transform           : rotate(18deg);
+}
+.numbergames .group9 .group7 .hand .ovalcopy46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 16px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(35deg); /* IE 9 */
+  -webkit-transform   : rotate(35deg); /* Chrome, Safari, Opera */
+  transform           : rotate(35deg);
+}
+.numbergames .group9 .group7 .armr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 76px;
+  height              : 90px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(29deg); /* IE 9 */
+  -webkit-transform   : rotate(29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(29deg);
+}
+.numbergames .group9 .group7 .group12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 122px;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  -ms-transform       : rotate(-145deg); /* IE 9 */
+  -webkit-transform   : rotate(-145deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-145deg);
+}
+.numbergames .group9 .group7 .group12 .handcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 40px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-165deg); /* IE 9 */
+  -webkit-transform   : rotate(-165deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-165deg);
+}
+.numbergames .group9 .group7 .group12 .handcopy .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .group12 .handcopy .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .group12 .handcopy .ovalcopy43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 20px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(-11deg); /* IE 9 */
+  -webkit-transform   : rotate(-11deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-11deg);
+}
+.numbergames .group9 .group7 .group12 .handcopy .ovalcopy47 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.numbergames .group9 .group7 .group12 .handcopy .ovalcopy44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(8deg); /* IE 9 */
+  -webkit-transform   : rotate(8deg); /* Chrome, Safari, Opera */
+  transform           : rotate(8deg);
+}
+.numbergames .group9 .group7 .group12 .handcopy .ovalcopy45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 20px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(18deg); /* IE 9 */
+  -webkit-transform   : rotate(18deg); /* Chrome, Safari, Opera */
+  transform           : rotate(18deg);
+}
+.numbergames .group9 .group7 .group12 .handcopy .ovalcopy46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 16px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(35deg); /* IE 9 */
+  -webkit-transform   : rotate(35deg); /* Chrome, Safari, Opera */
+  transform           : rotate(35deg);
+}
+.numbergames .group9 .group7 .group12 .armrcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 90px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(29deg); /* IE 9 */
+  -webkit-transform   : rotate(29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(29deg);
+}
+.numbergames .group9 .group7 .body {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 209px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 156px;
+  height              : 52px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : 52px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .ovalcopy40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 156px;
+  height              : 52px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .ovalcopy401 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : 52px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 111px;
+  height              : 66px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 111px;
+  height              : 67px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 131px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 118px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  border-radius       : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .ovalcopy41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 72px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .group7 .body .ovalcopy42 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 89px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 181px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .path5copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : 106px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .ovalcopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 121px;
+  height              : 27px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.numbergames .group9 .headb .ovalcopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 123px;
+  height              : 27px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  -ms-transform       : rotate(26deg); /* IE 9 */
+  -webkit-transform   : rotate(26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(26deg);
+}
+.numbergames .group9 .headb .ovalcopy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 116px;
+  height              : 27px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.numbergames .group9 .headb .ovalcopy11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 118px;
+  height              : 27px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  -ms-transform       : rotate(26deg); /* IE 9 */
+  -webkit-transform   : rotate(26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(26deg);
+}
+.numbergames .group9 .headb .ovalcopy12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 103px;
+  width               : 94px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .ovalcopy13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 77px;
+  height              : 103px;
+  width               : 94px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .ovalcopy14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 133px;
+  height              : 18px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(22deg); /* IE 9 */
+  -webkit-transform   : rotate(22deg); /* Chrome, Safari, Opera */
+  transform           : rotate(22deg);
+  opacity             : 0.6;
+}
+.numbergames .group9 .headb .ovalcopy15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 135px;
+  height              : 18px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(-22deg); /* IE 9 */
+  -webkit-transform   : rotate(-22deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-22deg);
+  opacity             : 0.6;
+}
+.numbergames .group9 .headb .oval2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 146px;
+  height              : 25px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .ovalcopy16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 152px;
+  height              : 20px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .ovalcopy17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 160px;
+  height              : 11px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .ovalcopy18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 137px;
+  height              : 7px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .path2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 107px;
+  height              : 12px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .path2copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 11px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .path3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : 54px;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .path3copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 70px;
+  height              : 56px;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .path4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 70px;
+  height              : 70px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .path4copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : 70px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 64px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 64px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .ovalcopy19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 66px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .ovalcopy20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .ovalcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 119px;
+  height              : 15px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 119px;
+  height              : 15px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 122px;
+  height              : 2px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.numbergames .group9 .headb .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 122px;
+  height              : 2px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}

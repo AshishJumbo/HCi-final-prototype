@@ -1,0 +1,1222 @@
+
+@font-face {
+                          font-family: "ComicSansMS-Bold";
+                          src: url('../fonts/Comic Sans MS Bold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ComicSansMS";
+                          src: url('../fonts/Comic Sans MS.ttf') format("truetype");
+                        }
+                        
+.cookinggamesmenu {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 768px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.cookinggamesmenu .group {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  box-sizing          : border-box;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 937px;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : -68px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 339px;
+  height              : 175px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 365px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .hotspot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 339px;
+  height              : 175px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 365px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .oval .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .oval .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 54px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.cookinggamesmenu .group .hotspot1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 262px;
+  width               : 472px;
+  position            : absolute;
+  margin              : 0;
+  left                : 276px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .sowearegoingto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : auto;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.38px;
+  line-height         : 42.0px;
+}
+.cookinggamesmenu .group .breakfast {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 489px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.38px;
+  line-height         : 42.0px;
+}
+.cookinggamesmenu .group .lunch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 514px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 399px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.38px;
+  line-height         : 42.0px;
+}
+.cookinggamesmenu .group .dinner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 531px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 709px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ComicSansMS-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.38px;
+  line-height         : 42.0px;
+}
+.cookinggamesmenu .group .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 902px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .oval1 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .oval1 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 52px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .hotspot2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 902px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 799px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .oval2 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .oval2 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 37px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .oval2 .rectanglecopy {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 55px;
+  height              : 17px;
+  box-sizing          : border-box;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(17, 68, 127, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .hotspot3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 88px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 799px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 358px;
+  height              : 124px;
+  width               : 231px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group .bitmap3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 384px;
+  height              : 162px;
+  width               : 324px;
+  position            : absolute;
+  margin              : 0;
+  left                : 638px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 217px;
+  height              : 211px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 304px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 137px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 115px;
+  height              : 22px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.cookinggamesmenu .group9 .group7 .hand {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 77px;
+  height              : 21px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(-165deg); /* IE 9 */
+  -webkit-transform   : rotate(-165deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-165deg);
+}
+.cookinggamesmenu .group9 .group7 .hand .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .hand .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .hand .ovalcopy43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 10px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(-11deg); /* IE 9 */
+  -webkit-transform   : rotate(-11deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-11deg);
+}
+.cookinggamesmenu .group9 .group7 .hand .ovalcopy47 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 6px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.cookinggamesmenu .group9 .group7 .hand .ovalcopy44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(8deg); /* IE 9 */
+  -webkit-transform   : rotate(8deg); /* Chrome, Safari, Opera */
+  transform           : rotate(8deg);
+}
+.cookinggamesmenu .group9 .group7 .hand .ovalcopy45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 10px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(18deg); /* IE 9 */
+  -webkit-transform   : rotate(18deg); /* Chrome, Safari, Opera */
+  transform           : rotate(18deg);
+}
+.cookinggamesmenu .group9 .group7 .hand .ovalcopy46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 8px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(35deg); /* IE 9 */
+  -webkit-transform   : rotate(35deg); /* Chrome, Safari, Opera */
+  transform           : rotate(35deg);
+}
+.cookinggamesmenu .group9 .group7 .armr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 45px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(29deg); /* IE 9 */
+  -webkit-transform   : rotate(29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(29deg);
+}
+.cookinggamesmenu .group9 .group7 .group12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 63px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(-145deg); /* IE 9 */
+  -webkit-transform   : rotate(-145deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-145deg);
+}
+.cookinggamesmenu .group9 .group7 .group12 .handcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 21px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(-165deg); /* IE 9 */
+  -webkit-transform   : rotate(-165deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-165deg);
+}
+.cookinggamesmenu .group9 .group7 .group12 .handcopy .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .group12 .handcopy .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 10px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .group12 .handcopy .ovalcopy43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 10px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(-11deg); /* IE 9 */
+  -webkit-transform   : rotate(-11deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-11deg);
+}
+.cookinggamesmenu .group9 .group7 .group12 .handcopy .ovalcopy47 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 6px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.cookinggamesmenu .group9 .group7 .group12 .handcopy .ovalcopy44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(8deg); /* IE 9 */
+  -webkit-transform   : rotate(8deg); /* Chrome, Safari, Opera */
+  transform           : rotate(8deg);
+}
+.cookinggamesmenu .group9 .group7 .group12 .handcopy .ovalcopy45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 10px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(18deg); /* IE 9 */
+  -webkit-transform   : rotate(18deg); /* Chrome, Safari, Opera */
+  transform           : rotate(18deg);
+}
+.cookinggamesmenu .group9 .group7 .group12 .handcopy .ovalcopy46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 8px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(35deg); /* IE 9 */
+  -webkit-transform   : rotate(35deg); /* Chrome, Safari, Opera */
+  transform           : rotate(35deg);
+}
+.cookinggamesmenu .group9 .group7 .group12 .armrcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 45px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(29deg); /* IE 9 */
+  -webkit-transform   : rotate(29deg); /* Chrome, Safari, Opera */
+  transform           : rotate(29deg);
+}
+.cookinggamesmenu .group9 .group7 .body {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 105px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 26px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 77px;
+  height              : 26px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .ovalcopy40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 26px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .ovalcopy401 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 77px;
+  height              : 26px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 33px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 33px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 65px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 59px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  border-radius       : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .ovalcopy41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .group7 .body .ovalcopy42 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 90px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .path5copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 53px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 13px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 13px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(26deg); /* IE 9 */
+  -webkit-transform   : rotate(26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(26deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 13px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(-26deg); /* IE 9 */
+  -webkit-transform   : rotate(-26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-26deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : 13px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(26deg); /* IE 9 */
+  -webkit-transform   : rotate(26deg); /* Chrome, Safari, Opera */
+  transform           : rotate(26deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 51px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 51px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(22deg); /* IE 9 */
+  -webkit-transform   : rotate(22deg); /* Chrome, Safari, Opera */
+  transform           : rotate(22deg);
+  opacity             : 0.6;
+}
+.cookinggamesmenu .group9 .headb .ovalcopy15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 67px;
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  -ms-transform       : rotate(-22deg); /* IE 9 */
+  -webkit-transform   : rotate(-22deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-22deg);
+  opacity             : 0.6;
+}
+.cookinggamesmenu .group9 .headb .oval2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 72px;
+  height              : 14px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : 10px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : 5px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .path2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 6px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .path2copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 5px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .path3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 27px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .path3copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 28px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .path4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 35px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .path4copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : 35px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 32px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 32px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 33px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .ovalcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 1px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : 7px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : 7px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 1px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.cookinggamesmenu .group9 .headb .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 1px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
